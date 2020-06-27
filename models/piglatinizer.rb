@@ -9,7 +9,7 @@ def to_pig_latin(string)
   pig(string)
 end
 
-def pig(word)
+def pig(new_word)
   alpha = ('a'..'z').to_a + ('A'..'Z').to_a
   vowels = %w[a e i o u] + %w[A E I O U]
   consonants = alpha - vowels
