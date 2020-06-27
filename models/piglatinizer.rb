@@ -1,6 +1,5 @@
 class PigLatinizer
 
-
 def piglatinize(thing)
   pig(thing)
 end
@@ -34,4 +33,4 @@ def pig(thing)
   showme.join(', ').gsub(/,/, '')
 end
 
-end 
+end
