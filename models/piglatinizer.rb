@@ -14,7 +14,7 @@ def pig(thing)
   vowels = %w[a e i o u] + %w[A E I O U]
   consonants = alpha - vowels
 
-  showme = []
+  array = []
     input = thing.split(' ')
       input.each do |word|
           if word.length < 2
