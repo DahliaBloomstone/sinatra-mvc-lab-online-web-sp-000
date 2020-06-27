@@ -15,7 +15,7 @@ def pig(new_word)
   consonants = alpha - vowels
 
   array = []
-    input = thing.split(' ')
+    input = new_word.split(' ')
       input.each do |word|
           if word.length < 2
              array << word + "way"
