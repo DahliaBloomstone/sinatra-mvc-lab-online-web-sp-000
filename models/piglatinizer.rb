@@ -30,7 +30,7 @@ def pig(thing)
              array <<  word + '?'
           end
       end
-  showme.join(', ').gsub(/,/, '')
+  arary.join(', ').gsub(/,/, '')
 end
 
 end
