@@ -21,7 +21,7 @@ def pig(thing)
           elsif vowels.include?(word[0])
              array <<  word + "way"
           elsif consonants.include?(word[0]) && consonants.include?(word[1]) && consonants.include?(word[2])
-             showme <<  word[3..-1] + word[0..2] + 'ay'
+             array <<  word[3..-1] + word[0..2] + 'ay'
           elsif consonants.include?(word[0]) && consonants.include?(word[1])
              showme <<  word[2..-1] + word[0..1] + 'ay'
           elsif consonants.include?(word[0])
