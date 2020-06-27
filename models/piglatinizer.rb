@@ -27,7 +27,7 @@ def pig(thing)
           elsif consonants.include?(word[0])
              array <<  word[1..-1] + word[0] + 'ay'
           else
-             showme <<  word + '?'
+             array <<  word + '?'
           end
       end
   showme.join(', ').gsub(/,/, '')
