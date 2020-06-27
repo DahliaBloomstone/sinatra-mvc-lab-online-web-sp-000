@@ -1,8 +1,8 @@
 class PigLatinizer
 
 
-def piglatinize(thing)
-  pig(thing)
+def piglatinize(word)
+  pig(word)
 end
 
 def to_pig_latin(string)
