@@ -7,11 +7,9 @@ get '/' do
 end
 
 post '/piglatinize' do
-
   word = PigLatinizer.new
   @string = word.pig(params[:user_phrase])
   erb :piglatinize
-
 end
 
 end
