@@ -32,6 +32,6 @@ def pig(thing)
           end
       end
   showme.join(', ').gsub(/,/, '')
-end
+    end
 
 end
