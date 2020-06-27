@@ -17,7 +17,7 @@ def pig(thing)
     input = thing.split(' ')
       input.each do |word|
           if word.length < 2
-             showme << word + "way"
+             array << word + "way"
           elsif vowels.include?(word[0])
              showme <<  word + "way"
           elsif consonants.include?(word[0]) && consonants.include?(word[1]) && consonants.include?(word[2])
